@@ -21,7 +21,7 @@ jobs:
       matrix:
         language: [go, python, javascript-typescript]
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v7
       - uses: actions/setup-go@v5
         if: matrix.language == 'go'
         with:
@@ -41,7 +41,7 @@ jobs:
       run:
         working-directory: golang
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v7
       - uses: actions/setup-go@v5
         with:
           go-version-file: golang/go.mod
@@ -57,7 +57,7 @@ jobs:
       run:
         working-directory: typescript
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v7
       - uses: actions/setup-node@v5
         with:
           node-version: 22
@@ -70,7 +70,7 @@ jobs:
     name: Python vulnerabilities
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v7
       - uses: actions/setup-python@v6
         with:
           python-version: "3.12"

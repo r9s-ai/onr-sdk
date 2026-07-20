@@ -12,16 +12,12 @@ Unified Go SDK and CLI for testing OpenAI, Anthropic, and Gemini providers throu
 ## Installation
 
 ```bash
-cd client/sdk/golang
+cd golang
 go mod tidy
 go build ./cmd/onr-sdk
 ```
 
-From the repository root, you can also run:
-
-```bash
-go run ./client/sdk/golang/cmd/onr-sdk --help
-```
+The Go module path is `github.com/r9s-ai/onr-sdk/golang`.
 
 ## Environment Variables
 
@@ -39,12 +35,6 @@ go run ./cmd/onr-sdk openai embeddings "hello embeddings"
 go run ./cmd/onr-sdk anthropic messages "Hello"
 go run ./cmd/onr-sdk gemini models "Hello"
 go run ./cmd/onr-sdk gemini chats "Draw a guitar"
-```
-
-If you are in the repository root, use:
-
-```bash
-go run ./client/sdk/golang/cmd/onr-sdk openai chat_completions "Hello"
 ```
 
 ### Quick Examples

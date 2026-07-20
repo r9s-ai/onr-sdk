@@ -7,7 +7,7 @@ import (
 	openaioption "github.com/openai/openai-go/v3/option"
 	"github.com/openai/openai-go/v3/responses"
 
-	"github.com/r9s-ai/open-next-router/client/sdk/golang/pkg/config"
+	"github.com/r9s-ai/onr-sdk/golang/pkg/config"
 )
 
 type EmbeddingResult struct {

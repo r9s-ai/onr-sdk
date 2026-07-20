@@ -12,11 +12,11 @@ import (
 
 	"github.com/spf13/cobra"
 
-	anthropicprovider "github.com/r9s-ai/open-next-router/client/sdk/golang/pkg/anthropic"
-	"github.com/r9s-ai/open-next-router/client/sdk/golang/pkg/config"
-	geminiprovider "github.com/r9s-ai/open-next-router/client/sdk/golang/pkg/gemini"
-	"github.com/r9s-ai/open-next-router/client/sdk/golang/pkg/metrics"
-	openaiprovider "github.com/r9s-ai/open-next-router/client/sdk/golang/pkg/openai"
+	anthropicprovider "github.com/r9s-ai/onr-sdk/golang/pkg/anthropic"
+	"github.com/r9s-ai/onr-sdk/golang/pkg/config"
+	geminiprovider "github.com/r9s-ai/onr-sdk/golang/pkg/gemini"
+	"github.com/r9s-ai/onr-sdk/golang/pkg/metrics"
+	openaiprovider "github.com/r9s-ai/onr-sdk/golang/pkg/openai"
 )
 
 const (

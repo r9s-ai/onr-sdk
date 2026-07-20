@@ -6,7 +6,7 @@ import (
 	anthropic "github.com/anthropics/anthropic-sdk-go"
 	anthropicoption "github.com/anthropics/anthropic-sdk-go/option"
 
-	"github.com/r9s-ai/open-next-router/client/sdk/golang/pkg/config"
+	"github.com/r9s-ai/onr-sdk/golang/pkg/config"
 )
 
 var newClient = func(cfg config.ClientConfig) anthropic.Client {

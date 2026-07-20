@@ -18,6 +18,7 @@ Example: add `openai/embeddings.py` for embeddings calls.
 ## Installation
 
 ```bash
+cd python
 pip install -r requirements.txt
 ```
 

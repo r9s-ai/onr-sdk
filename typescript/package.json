@@ -2,7 +2,7 @@
   "name": "@r9s-ai/onr-sdk-typescript",
   "version": "0.1.0",
   "description": "Thin TypeScript SDK and CLI for testing ONR OpenAI, Anthropic, and Gemini endpoints",
-  "license": "Apache-2.0",
+  "license": "MIT",
   "type": "module",
   "engines": {
     "node": ">=20"

@@ -15,21 +15,16 @@ Unified TypeScript SDK and CLI for testing OpenAI, Anthropic, and Gemini provide
 ## Installation
 
 ```bash
-cd client/sdk/typescript
+cd typescript
 npm install
 npm run build
 ```
 
-For local usage in this repository, do one of the following after `npm install` and `npm run build`:
+For local usage, do one of the following after `npm install` and `npm run build`:
 
 ```bash
-# From client/sdk/typescript
 node dist/cli.cjs openai chat_completions "Hello"
 npm exec onr-sdk-ts -- openai chat_completions "Hello"
-
-# From the repository root
-node client/sdk/typescript/dist/cli.cjs openai chat_completions "Hello"
-npm --prefix client/sdk/typescript exec onr-sdk-ts -- openai chat_completions "Hello"
 ```
 
 ## Environment Variables
@@ -59,12 +54,6 @@ npm exec onr-sdk-ts -- openai embeddings "hello embeddings" -v
 npm exec onr-sdk-ts -- anthropic messages "Hello" --stream -v
 npm exec onr-sdk-ts -- gemini models "Hello" --stream -v
 npm exec onr-sdk-ts -- gemini chats "Draw a guitar" --response_modalities TEXT,IMAGE --image-output-dir . -v
-```
-
-From the repository root, use:
-
-```bash
-npm --prefix client/sdk/typescript exec onr-sdk-ts -- openai chat_completions "Hello" --stream -v
 ```
 
 ## Default Models

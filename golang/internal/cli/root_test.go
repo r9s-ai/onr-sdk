@@ -9,8 +9,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/r9s-ai/open-next-router/client/sdk/golang/pkg/config"
-	"github.com/r9s-ai/open-next-router/client/sdk/golang/pkg/gemini"
+	"github.com/r9s-ai/onr-sdk/golang/pkg/config"
+	"github.com/r9s-ai/onr-sdk/golang/pkg/gemini"
 )
 
 func TestExecuteContextRequiresAPIKey(t *testing.T) {

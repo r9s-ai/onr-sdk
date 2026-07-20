@@ -6,7 +6,7 @@ import (
 
 	"google.golang.org/genai"
 
-	"github.com/r9s-ai/open-next-router/client/sdk/golang/pkg/config"
+	"github.com/r9s-ai/onr-sdk/golang/pkg/config"
 )
 
 type StreamEvent struct {

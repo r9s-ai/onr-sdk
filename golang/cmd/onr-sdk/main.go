@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/r9s-ai/open-next-router/client/sdk/golang/internal/cli"
+	"github.com/r9s-ai/onr-sdk/golang/internal/cli"
 )
 
 func main() {

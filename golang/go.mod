@@ -1,4 +1,4 @@
-module github.com/r9s-ai/open-next-router/client/sdk/golang
+module github.com/r9s-ai/onr-sdk/golang
 
 go 1.25.12
 

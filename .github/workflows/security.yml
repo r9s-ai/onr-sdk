@@ -22,7 +22,7 @@ jobs:
         language: [go, python, javascript-typescript]
     steps:
       - uses: actions/checkout@v5
-      - uses: actions/setup-go@v5
+      - uses: actions/setup-go@v7
         if: matrix.language == 'go'
         with:
           go-version-file: golang/go.mod
@@ -42,7 +42,7 @@ jobs:
         working-directory: golang
     steps:
       - uses: actions/checkout@v5
-      - uses: actions/setup-go@v5
+      - uses: actions/setup-go@v7
         with:
           go-version-file: golang/go.mod
           cache-dependency-path: golang/go.sum

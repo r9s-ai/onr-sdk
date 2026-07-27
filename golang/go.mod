@@ -3,10 +3,10 @@ module github.com/r9s-ai/onr-sdk/golang
 go 1.25.12
 
 require (
-	github.com/anthropics/anthropic-sdk-go v1.58.0
-	github.com/openai/openai-go/v3 v3.44.0
+	github.com/anthropics/anthropic-sdk-go v1.61.0
+	github.com/openai/openai-go/v3 v3.46.0
 	github.com/spf13/cobra v1.10.2
-	google.golang.org/genai v1.64.0
+	google.golang.org/genai v1.65.0
 )
 
 require (
@@ -27,7 +27,7 @@ require (
 	github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 // indirect
 	github.com/spf13/pflag v1.0.9 // indirect
 	github.com/standard-webhooks/standard-webhooks/libraries v0.0.1 // indirect
-	github.com/tidwall/gjson v1.18.0 // indirect
+	github.com/tidwall/gjson v1.19.0 // indirect
 	github.com/tidwall/match v1.1.1 // indirect
 	github.com/tidwall/pretty v1.2.1 // indirect
 	github.com/tidwall/sjson v1.2.5 // indirect
